@@ -1,0 +1,73 @@
+body {
+  background-color: #f2f1e7;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  padding: 48px 36px;
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #5c4d4d;
+}
+
+header {
+  margin-bottom: 36px;
+}
+
+form {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 44px;
+}
+
+.genre-input {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 22px;
+  line-height: 20px;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #6e4c41;
+  color: #f9f9f9;
+  border-radius: 22px;
+  border: none;
+  padding: 14px 24px;
+  width: 130px;
+  font-size: 16px;
+}
+
+.book-rec {
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #5c4d4d;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 36px;
+}
+
+a {
+  color: #6e4c41;
+}

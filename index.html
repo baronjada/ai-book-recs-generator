@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Book Reccomendation Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>AI Book Reccomendation Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Please select a book genre"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The Pragmatic Programmer by Andrew Hunt and David Thomas. The Pragmatic
-        Programmer: From Journeyman to Master is a book about computer
-        programming and software engineering, written by Andrew Hunt and David
-        Thomas and published in October 1999.
-      </div>
-    </main>
-
+    <div class="container">
+      <header>
+        <h1>AI Book Reccomendation<br /> Generator 📔</h1>
+      </header>
+      <main>
+        <form class="form" action="">
+          <input
+            type="text"
+            placeholder="Please input a book genre"
+            autofocus
+            required
+            autocomplete="off"
+            class="genre-input"
+          />
+          <input type="submit" class="submit-button"/>
+        </form>
+        <div class="book-rec">
+          The Pragmatic Programmer by Andrew Hunt and David Thomas. The
+          Pragmatic Programmer: From Journeyman to Master is a book about
+          computer programming and software engineering, written by Andrew Hunt
+          and David Thomas and published in October 1999.
+        </div>
+      </main>
+    
     <footer>
       This AI project was coded by
       <a href="https://github.com/baronjada" target="_blank">Jada Baron</a> and
@@ -41,6 +46,7 @@
       and is
       <a href="https://ai-book-recs-generator.netlify.app/">hosted on Netlify</a
       >.
+    </div>
     </footer>
     <script src="src/script.js"></script>
   </body>
