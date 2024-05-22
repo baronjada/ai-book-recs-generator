@@ -24,13 +24,23 @@ header {
   margin-bottom: 36px;
 }
 
-form {
+.form.container {
   padding: 30px;
   background-color: #ffffff;
   border-radius: 22px;
-  display: flex;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   margin-bottom: 44px;
+}
+
+form {
+  display: flex;
+}
+
+.input-example {
+  line-height: 1.5;
+  font-size: 12px;
+  margin: 5px 0 45px 5px;
+  opacity: 0.6;
 }
 
 .instructions {
@@ -60,6 +70,10 @@ form {
   line-height: 1.5;
   border-left: 3px solid #5c4d4d;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
