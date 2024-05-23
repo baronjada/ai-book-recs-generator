@@ -22,10 +22,6 @@ function generateBookRec(event) {
   bookRecElement.classList.remove("hidden");
   bookRecElement.innerHTML = `<div class="generating-blink">⏳ Generating a book recommendation related to ${instructionsInput.value}... ⌛️</div>`;
 
-  console.log("Generating book recommendation");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayBookRec);
 }
 
