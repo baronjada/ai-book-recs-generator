@@ -63,6 +63,16 @@ form {
   font-size: 16px;
 }
 
+.generating-blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 .book-rec {
   font-size: 14px;
   background-color: #ffffff;

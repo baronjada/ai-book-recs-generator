@@ -20,6 +20,7 @@ function generateBookRec(event) {
 
   let bookRecElement = document.querySelector("#book-rec");
   bookRecElement.classList.remove("hidden");
+  bookRecElement.innerHTML = `<div class="generating-blink">⏳ Generating a book recommendation related to ${instructionsInput.value}... ⌛️</div>`;
 
   console.log("Generating book recommendation");
   console.log(`Prompt: ${prompt}`);
